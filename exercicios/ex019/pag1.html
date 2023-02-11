@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        .especial{
+            background-color:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  aqua;
+        }
+
+        a{
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        a:hover{
+          text-decoration: underline;
+          color: black;
+        }
+        a:active{
+            color: cadetblue;
+        }
+        .especial:after{
+            content: '☚';
+        }
+        a::before{
+            content: '➩';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" hreflang="pt-br" rel="external" target="_blank">Repositorio do GutHub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" hreflang="pt-br" rel="external" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li>
+            <a href="https://www.cursoemvideo.com/" hreflang="pt-br" rel="external" target="_blank">Site do CursoemVideos</a>
+        </li>
+    </ul>
+</body>
+</html>

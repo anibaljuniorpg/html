@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(233, 199, 155);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        h1{
+            text-align: center;
+        }
+        
+        footer{
+            text-align: center;
+            background-color: black;
+            padding: 1px;
+            margin: 10px 0px;
+        }
+
+        footer > p{
+            color: white;
+            margin: 0px;
+        }
+
+        nav{
+            background-color: rgb(4, 4, 129);
+            box-shadow: 1px 1px 3px black;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
+        a{
+            color: #00ffff;
+            padding: 3px;
+        }
+
+        a:hover{
+            color: #00a5a5;
+        }
+
+        header{
+            background-image: linear-gradient(to top, blue, rgb(69, 69, 250));            
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            border: 10px; 
+            margin: 0px 70px; 
+            border-radius: 10px; 
+            box-shadow: 4px 4px 9px 0px;
+        }
+
+        #conteudo{
+            background-color: rgb(226, 162, 83);
+            padding: 3px;
+        }
+
+        aside{
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        ::selection{
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Texto do artigo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos earum eum dolorem consequatur recusandae saepe, omnis iste odit nesciunt tempora fugit quod consectetur nisi magni suscipit consequuntur tempore? Asper
+            </article>
+            <article>
+                <h2>Texto do artigo 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci ab odit laborum omnis cumque minus commodi quod debitis corrupti! Deleniti autem suscipit, neque provident sed ab delectus a veritatis fugiat?</p>
+                <aside id="conteudo">conteudo periferico do Artigo</aside>
+            </article>
+        </section>
+        <aside>
+            <h2>conteudo periferico do site</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti illum quo, consectetur consequatur dolor iure quisquam distinctio tenetur, iste rerum inventore voluptatum, similique voluptas nam molestias perspiciatis nihil. Est?</p>
+        </aside>  
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
